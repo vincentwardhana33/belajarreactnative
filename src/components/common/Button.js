@@ -4,7 +4,8 @@ import {Text, TouchableOpacity} from 'react-native';
 const Button = ({onPress, children}) => {
   const styles = {
     buttonStyle: {
-      flex: 1,
+      // flex: 1,
+      width: '100%',
       alignSelf: 'stretch',
       backgroundColor: '#fff',
       borderRadius: 5,
